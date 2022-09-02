@@ -1,0 +1,13 @@
+D:\радик\техпрог\HelloWorld_C\bin\Debug\netcoreapp3.1\HelloWorld_C.exe
+D:\радик\техпрог\HelloWorld_C\bin\Debug\netcoreapp3.1\HelloWorld_C.deps.json
+D:\радик\техпрог\HelloWorld_C\bin\Debug\netcoreapp3.1\HelloWorld_C.runtimeconfig.json
+D:\радик\техпрог\HelloWorld_C\bin\Debug\netcoreapp3.1\HelloWorld_C.runtimeconfig.dev.json
+D:\радик\техпрог\HelloWorld_C\bin\Debug\netcoreapp3.1\HelloWorld_C.dll
+D:\радик\техпрог\HelloWorld_C\bin\Debug\netcoreapp3.1\HelloWorld_C.pdb
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.csprojAssemblyReference.cache
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.csproj.CoreCompileInputs.cache
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.AssemblyInfoInputs.cache
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.AssemblyInfo.cs
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.dll
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.pdb
+D:\радик\техпрог\HelloWorld_C\obj\Debug\netcoreapp3.1\HelloWorld_C.genruntimeconfig.cache
