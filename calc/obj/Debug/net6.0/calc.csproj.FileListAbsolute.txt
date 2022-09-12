@@ -1,0 +1,15 @@
+/home/ltempestas/Desktop/calc/bin/Debug/net6.0/calc
+/home/ltempestas/Desktop/calc/bin/Debug/net6.0/calc.deps.json
+/home/ltempestas/Desktop/calc/bin/Debug/net6.0/calc.runtimeconfig.json
+/home/ltempestas/Desktop/calc/bin/Debug/net6.0/calc.dll
+/home/ltempestas/Desktop/calc/bin/Debug/net6.0/calc.pdb
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.csproj.AssemblyReference.cache
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.GeneratedMSBuildEditorConfig.editorconfig
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.AssemblyInfoInputs.cache
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.AssemblyInfo.cs
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.csproj.CoreCompileInputs.cache
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.dll
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/refint/calc.dll
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.pdb
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/calc.genruntimeconfig.cache
+/home/ltempestas/Desktop/calc/obj/Debug/net6.0/ref/calc.dll
