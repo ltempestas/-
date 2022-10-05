@@ -26,10 +26,10 @@ namespace calc
                 case '(': return 0;
                 case ')': return 1;
                 case '+': return 2;
-                case '-': return 3;
-                case '*': return 4;
-                case '/': return 4;
-                default: return 5;
+                case '-': return 2;
+                case '*': return 3;
+                case '/': return 3;
+                default: return 4;
             }
         }
         static public double Calculate(string input)
@@ -52,7 +52,7 @@ namespace calc
                 if (Char.IsDigit(input[i]))
                 {
 
-                    while (!IsRazd(input[i]) && !IsOperator(input[i]))
+                    while (!(IsRazd(input[i]) || IsOperator(input[i])))
                     {
                         output += input[i];
                         i++;
@@ -106,7 +106,7 @@ namespace calc
                 {
                     string a = string.Empty;
 
-                    while (!IsRazd(input[i]) && !IsOperator(input[i]))
+                    while (!(IsRazd(input[i]) || !IsOperator(input[i])))
                     {
                         a += input[i];
                         i++;
