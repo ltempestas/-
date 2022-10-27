@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,17 +7,13 @@ namespace calc
 {
     class Lab
     {
-        static private bool IsRazd(char c)
-        {
-            if ((" =".IndexOf(c) != -1))
-                return true;
-            return false;
+        static private bool IsDelimeter(char c) 
+        { 
+            return " =".IndexOf(c) != -1; 
         }
-        static private bool IsOperator(char с)
+        static private bool IsOperator(char с) 
         {
-            if (("+-/*^()".IndexOf(с) != -1))
-                return true;
-            return false;
+            return "+-/*()".IndexOf(с) != -1; 
         }
         static private byte GetOrder(char s)
         {
@@ -34,11 +30,13 @@ namespace calc
         }
         static public double Calculate(string input)
         {
-            string output = GetPostfZap(input);
+            string output = GetExpression(input);
             double result = Counting(output);
             return result;
         }
-        static private string GetPostfZap(string input)
+
+
+        static private string GetExpression(string input)
         {
             string output = string.Empty;
             Stack<char> operStack = new Stack<char>();
@@ -46,18 +44,17 @@ namespace calc
             for (int i = 0; i < input.Length; i++)
             {
 
-                if (IsRazd(input[i]))
-                    continue;
-
                 if (Char.IsDigit(input[i]))
                 {
 
-                    while (!(IsRazd(input[i]) || IsOperator(input[i])))
+                    while (!(IsDelimeter(input[i]) || IsOperator(input[i])))
                     {
                         output += input[i];
                         i++;
 
                         if (i == input.Length) break;
+
+                        
                     }
 
                     output += " ";
@@ -95,6 +92,10 @@ namespace calc
 
             return output;
         }
+
+
+
+
         static private double Counting(string input)
         {
             double result = 0;
@@ -106,7 +107,7 @@ namespace calc
                 {
                     string a = string.Empty;
 
-                    while (!(IsRazd(input[i]) || !IsOperator(input[i])))
+                    while (!(IsDelimeter(input[i]) || IsOperator(input[i])))
                     {
                         a += input[i];
                         i++;
@@ -145,4 +146,3 @@ namespace calc
         }
     }
 }
-
